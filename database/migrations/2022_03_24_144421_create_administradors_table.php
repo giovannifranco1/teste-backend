@@ -18,7 +18,7 @@ return new class extends Migration
       $table->id();
       $table->string('nome_completo');
       $table->string('login');
-      $table->string('senha');  
+      $table->string('senha');
       $table->timestamps();
     });
   }
@@ -30,6 +30,6 @@ return new class extends Migration
    */
   public function down()
   {
-    Schema::dropIfExists('administradors');
+    Schema::dropIfExists('administrador');
   }
 };
