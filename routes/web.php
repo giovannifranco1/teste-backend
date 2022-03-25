@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Admin\OficialController;
+use App\Http\Controllers\Admin\EmployeeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,4 +18,4 @@ Route::get('/', function () {
   return view('home');
 });
 
-Route::post('Oficial/store', [OficialController::class, 'store'])->name('Oficial.store');
+Route::post('Employee/store', [EmployeeController::class, 'store'])->name('Employee.store');
