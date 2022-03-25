@@ -7,14 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Administrador extends Model
 {
-  protected $created_at = 'data_criacao';
-  protected $updated_at = 'data_altercao';
   protected $table = 'administrador';
   protected $fillable = [
     'nome_completo',
     'login',
     'senha',
   ];
+  const CREATED_AT = 'data_criacao';
+  const UPDATED_AT = 'data_alteracao';
 
   use HasFactory;
 }

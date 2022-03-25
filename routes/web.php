@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\FuncionarioController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -11,8 +12,10 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
 Route::get('/', function () {
-    return view('welcome');
+  return view('home');
 });
+
+Route::post('funcionario/store', [FuncionarioController::class, 'store'])->name('funcionario.store');

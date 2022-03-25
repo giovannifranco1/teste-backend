@@ -7,13 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Movimentacao extends Model
 {
-  protected $created_at = 'data_criacao';
-  protected $updated_at = 'data_altercao';
   protected $table = 'movimentacao';
   protected $fillable = [
     'tipo_movimentacao',
     'valor',
     'observacao',
   ];
+
+  const CREATED_AT = 'data_criacao';
+  const UPDATED_AT = 'data_alteracao';
   use HasFactory;
 }

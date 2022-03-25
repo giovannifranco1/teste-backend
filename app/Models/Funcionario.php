@@ -7,8 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Funcionario extends Model
 {
-  protected $created_at = 'data_criacao';
-  protected $updated_at = 'data_altercao';
   protected $table = 'funcionario';
   protected $fillable = [
     'nome_completo',
@@ -17,6 +15,9 @@ class Funcionario extends Model
     'saldo_atual',
     'administrador_id',
   ];
-  
+
+  const CREATED_AT = 'data_criacao';
+  const UPDATED_AT = 'data_alteracao';
+
   use HasFactory;
 }
