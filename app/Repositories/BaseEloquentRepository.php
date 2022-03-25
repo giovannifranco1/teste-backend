@@ -17,7 +17,7 @@ class BaseEloquentRepository
       ->get();
   }
 
-  public function paginate($orderBy = 'name', array $relations = [], $paginate = 25)
+  public function paginate($orderBy = 'full_name', array $relations = [], $paginate = 25)
   {
     $instance = $this->getNewInstance();
 
