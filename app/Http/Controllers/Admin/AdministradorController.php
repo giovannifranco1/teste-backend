@@ -6,5 +6,5 @@ use App\Http\Controllers\Controller;
 
 class AdministradorController extends Controller
 {
-  //
+
 }
