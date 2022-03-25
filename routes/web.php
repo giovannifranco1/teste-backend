@@ -1,9 +1,13 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use App\Http\Controllers\Admin\EmployeeController;
 >>>>>>> e4789afb165fd50da854fd12f27b580fccaf3ce1
+=======
+use App\Http\Controllers\Admin\EmployeeController;
+>>>>>>> develop
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,12 +20,15 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 <<<<<<< HEAD
+<<<<<<< HEAD
 */
 
 Route::get('/', function () {
     return view('welcome');
 });
 =======
+=======
+>>>>>>> develop
  */
 
 Route::get('/', function () {
@@ -29,4 +36,7 @@ Route::get('/', function () {
 });
 
 Route::post('Employee/store', [EmployeeController::class, 'store'])->name('Employee.store');
+<<<<<<< HEAD
 >>>>>>> e4789afb165fd50da854fd12f27b580fccaf3ce1
+=======
+>>>>>>> develop

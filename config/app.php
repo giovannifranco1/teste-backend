@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Facade;
 return [
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -195,6 +196,8 @@ return [
         // ...
     ])->toArray(),
 =======
+=======
+>>>>>>> develop
   /*
   |--------------------------------------------------------------------------
   | Application Name
@@ -384,6 +387,9 @@ return [
   'aliases' => Facade::defaultAliases()->merge([
     // ...
   ])->toArray(),
+<<<<<<< HEAD
 >>>>>>> e4789afb165fd50da854fd12f27b580fccaf3ce1
+=======
+>>>>>>> develop
 
 ];

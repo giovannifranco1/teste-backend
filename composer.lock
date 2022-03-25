@@ -5,10 +5,14 @@
         "This file is @generated automatically"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "content-hash": "12524947d8c752f84bc21aaaede06bfa",
 =======
     "content-hash": "848eeae51e31f81f8800977fc5c08d77",
 >>>>>>> e4789afb165fd50da854fd12f27b580fccaf3ce1
+=======
+    "content-hash": "848eeae51e31f81f8800977fc5c08d77",
+>>>>>>> develop
     "packages": [
         {
             "name": "brick/math",
@@ -7685,7 +7689,10 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> develop
             "name": "theanik/laravel-more-command",
             "version": "v1.3.0",
             "source": {
@@ -7733,7 +7740,10 @@
             "time": "2022-02-21T16:53:24+00:00"
         },
         {
+<<<<<<< HEAD
 >>>>>>> e4789afb165fd50da854fd12f27b580fccaf3ce1
+=======
+>>>>>>> develop
             "name": "theseer/tokenizer",
             "version": "1.2.1",
             "source": {

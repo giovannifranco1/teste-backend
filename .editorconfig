@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 root = true
 
 [*]
@@ -18,6 +19,8 @@ indent_size = 2
 [docker-compose.yml]
 indent_size = 4
 =======
+=======
+>>>>>>> develop
 # EditorConfig is awesome: https://EditorConfig.org
 
 # top-most EditorConfig file
@@ -29,5 +32,9 @@ indent_size = 2
 end_of_line = crlf
 charset = utf-8
 trim_trailing_whitespace = false
+<<<<<<< HEAD
 insert_final_newline = false
 >>>>>>> e4789afb165fd50da854fd12f27b580fccaf3ce1
+=======
+insert_final_newline = false
+>>>>>>> develop

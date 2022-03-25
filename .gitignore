@@ -5,9 +5,13 @@
 /vendor
 .env
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .editorconfig
 >>>>>>> e4789afb165fd50da854fd12f27b580fccaf3ce1
+=======
+.editorconfig
+>>>>>>> develop
 .env.backup
 .phpunit.result.cache
 Homestead.json
