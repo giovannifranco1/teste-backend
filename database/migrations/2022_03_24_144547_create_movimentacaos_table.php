@@ -23,7 +23,8 @@ return new class extends Migration
       # Foreign key
       $table->foreignId('funcionario_id')->constrained('funcionario')->onDelete('cascade')->onUpdate('cascade');
       $table->foreignId('administrador_id')->constrained('administrador')->onDelete('cascade')->onUpdate('cascade');
-      $table->timestamps();
+      $table->dateTime('data_criacao');
+      $table->dateTime('data_alteracao');
     });
   }
 

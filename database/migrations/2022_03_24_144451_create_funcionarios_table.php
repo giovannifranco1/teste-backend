@@ -23,7 +23,8 @@ return new class extends Migration
 
       # Foreign key
       $table->foreignId('administrador_id')->constrained('administrador');
-      $table->timestamps();
+      $table->dateTime('data_criacao');
+      $table->dateTime('data_alteracao');
     });
   }
 

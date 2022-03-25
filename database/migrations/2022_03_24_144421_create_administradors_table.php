@@ -19,7 +19,8 @@ return new class extends Migration
       $table->string('nome_completo');
       $table->string('login');
       $table->string('senha');
-      $table->timestamps();
+      $table->dateTime('data_criacao');
+      $table->dateTime('data_alteracao');
     });
   }
 
