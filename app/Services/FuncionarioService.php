@@ -2,24 +2,24 @@
 
 namespace App\Services;
 
-use App\Models\Funcionario;
-use App\Repositories\Interfaces\FuncionarioRepositoryInterface;
+use App\Models\Oficial;
+use App\Repositories\Interfaces\OficialRepositoryInterface;
 
-class FuncionarioService
+class OficialService
 {
-  /** @var FuncionarioRepositoryInterface */
-  protected $funcionarioRepository;
+  /** @var OficialRepositoryInterface */
+  protected $OficialRepository;
 
-  public function __construct(FuncionarioRepositoryInterface $funcionarioRepository)
+  public function __construct(OficialRepositoryInterface $OficialRepository)
   {
-    $this->funcionarioRepository = $funcionarioRepository;
+    $this->OficialRepository = $OficialRepository;
   }
 
   /**
    * @throws Exceptions
    */
-  public function criarFuncionario(Funcionario $funcionario)
+  public function criarOficial(Oficial $Oficial)
   {
-    $this->funcionarioRepository->criarFuncionario($funcionario);
+    $this->OficialRepository->criarOficial($Oficial);
   }
 }

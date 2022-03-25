@@ -2,12 +2,12 @@
 
 namespace App\Repositories;
 
-use App\Repositories\Interfaces\MovimentacaoRepositoryInterface;
+use App\Repositories\Interfaces\MovementRepositoryInterface;
 
-class MovimentacaoRepository implements MovimentacaoRepositoryInterface
+class MovementRepository implements MovementRepositoryInterface
 {
-    public function __construct()
-    {
-        //
-    }
+  public function __construct()
+  {
+    //
+  }
 }

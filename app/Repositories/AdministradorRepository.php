@@ -2,12 +2,12 @@
 
 namespace App\Repositories;
 
-use App\Repositories\Interfaces\AdministradorRepositoryInterface;
+use App\Repositories\Interfaces\AdministratorRepositoryInterface;
 
-class AdministradorRepository implements AdministradorRepositoryInterface
+class AdministratorRepository implements AdministratorRepositoryInterface
 {
-    public function __construct()
-    {
-        //
-    }
+  public function __construct()
+  {
+    //
+  }
 }

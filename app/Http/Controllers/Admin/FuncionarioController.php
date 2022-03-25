@@ -3,16 +3,16 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\FuncionarioRequest;
-use App\Models\Funcionario;
-use App\Services\FuncionarioService;
+use App\Http\Requests\OficialRequest;
+use App\Models\Oficial;
+use App\Services\OficialService;
 use Exception;
 
-class FuncionarioController extends Controller
+class OficialController extends Controller
 {
-  protected $funcionarioService;
+  protected $OficialService;
 
-  public function __construct(FuncionarioService $funcionarioService)
+  public function __construct(OficialService $OficialService)
   {
     # code...
   }
@@ -27,10 +27,10 @@ class FuncionarioController extends Controller
 
   }
 
-  public function store(FuncionarioRequest $request)
+  public function store(OficialRequest $request)
   {
     try {
-      $this->funcionarioService->criarFuncionario(new Funcionario($request->all()));
+      $this->OficialService->criarOficial(new Oficial($request->all()));
     } catch (Exception $e) {
 
     }

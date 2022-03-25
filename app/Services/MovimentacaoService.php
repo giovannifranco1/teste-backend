@@ -2,10 +2,10 @@
 
 namespace App\Services;
 
-class MovimentacaoService
+class MovementService
 {
-    public function __construct()
-    {
-        //
-    }
+  public function __construct()
+  {
+    //
+  }
 }

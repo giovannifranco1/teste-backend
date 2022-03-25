@@ -13,14 +13,17 @@ return new class extends Migration
    */
   public function up()
   {
-    Schema::create('administrador', function (Blueprint $table) {
+    Schema::create('oficial', function (Blueprint $table) {
       # Primary key
       $table->id();
-      $table->string('nome_completo');
+      $table->string('full_name');
       $table->string('login');
-      $table->string('senha');
-      $table->dateTime('data_criacao');
-      $table->dateTime('data_alteracao');
+      $table->string('password');
+      $table->decimal('current_balance');
+
+      # Foreign key
+      $table->foreignId('administrator_id')->constrained('administrator');
+      $table->timestamps();
     });
   }
 
@@ -31,6 +34,6 @@ return new class extends Migration
    */
   public function down()
   {
-    Schema::dropIfExists('administrador');
+    Schema::dropIfExists('oficial');
   }
 };

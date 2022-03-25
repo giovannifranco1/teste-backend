@@ -3,9 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 
-class MovimentacaoController extends Controller
+class MovementController extends Controller
 {
-    //
+  //
 }
